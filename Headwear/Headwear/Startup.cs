@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-
+using Headwear.DataContext;
+using Microsoft.EntityFrameworkCore.Extensions;
+using Microsoft.EntityFrameworkCore;
 namespace Headwear
 {
     public class Startup
@@ -29,6 +31,7 @@ namespace Headwear
         {
             // Add framework services.
             services.AddMvc();
+            services.AddDbContext<HeadwearContext>(options => options.UseSqlServer(Configuration["DefaultConnection:ConnectionString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
