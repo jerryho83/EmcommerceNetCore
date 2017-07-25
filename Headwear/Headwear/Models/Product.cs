@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
 namespace Headwear.Models
 {
     [Table("Product")]
@@ -14,6 +16,8 @@ namespace Headwear.Models
             OrderLines = new HashSet<OrderLine>();
         }
         public int ProductId { get; set; }
+        [Required]
+        [Display(Name = "Product Name")]
         public string ProductName { get; set; }
         public string Detail { get; set; }
         public decimal UnitPrice { get; set; }
