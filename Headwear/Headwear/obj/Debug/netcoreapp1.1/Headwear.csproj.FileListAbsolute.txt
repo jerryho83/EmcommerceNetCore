@@ -1,0 +1,9 @@
+D:\EmcommerceNetCore\Headwear\Headwear\bin\Debug\netcoreapp1.1\Headwear.deps.json
+D:\EmcommerceNetCore\Headwear\Headwear\bin\Debug\netcoreapp1.1\Headwear.runtimeconfig.json
+D:\EmcommerceNetCore\Headwear\Headwear\bin\Debug\netcoreapp1.1\Headwear.runtimeconfig.dev.json
+D:\EmcommerceNetCore\Headwear\Headwear\bin\Debug\netcoreapp1.1\Headwear.dll
+D:\EmcommerceNetCore\Headwear\Headwear\bin\Debug\netcoreapp1.1\Headwear.pdb
+D:\EmcommerceNetCore\Headwear\Headwear\obj\Debug\netcoreapp1.1\Headwear.csprojResolveAssemblyReference.cache
+D:\EmcommerceNetCore\Headwear\Headwear\obj\Debug\netcoreapp1.1\Headwear.AssemblyInfo.cs
+D:\EmcommerceNetCore\Headwear\Headwear\obj\Debug\netcoreapp1.1\Headwear.dll
+D:\EmcommerceNetCore\Headwear\Headwear\obj\Debug\netcoreapp1.1\Headwear.pdb
