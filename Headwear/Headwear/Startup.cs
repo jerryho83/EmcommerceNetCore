@@ -59,8 +59,8 @@ namespace Headwear
                     template: "{controller=Home}/{action=Index}/{id?}");
                 //admin area route
                 routes.MapRoute(
-                    name: "AdminAreaRoute",
-                    template: "{area.exits}/{controller=Products}/{action=Index}/{id?}");
+                     name: "AdminAreaCategory",
+                     template: "{area:exists}/{controller=Products}/{action=Index}/{id?}");
 
             });
         }
