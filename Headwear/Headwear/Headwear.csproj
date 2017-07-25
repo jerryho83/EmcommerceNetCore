@@ -24,6 +24,9 @@
   <ItemGroup>
     <Folder Include="Areas\" />
     <Folder Include="Models\Admin\Views\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>
